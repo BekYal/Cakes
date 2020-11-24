@@ -1,12 +1,4 @@
-/*
- * 
- *
- *
-*Block.createBlockWithRotation("dough", [
-*	{name: "dough", texture: [], inCreative: true}
-*]);
 
-*/
 
 IDRegistry.genBlockID("dough");
 Block.createBlockWithRotation("dough", [
