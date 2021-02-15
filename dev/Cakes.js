@@ -1,14 +1,3 @@
-/*
-BUILD INFO:
-  dir: dev
-  target: main.js
-  files: 2
-*/
-
-
-
-// file: Cakes.js
-
 IDRegistry.genBlockID("Tort1");
 Block.createBlock("Tort1", [{name: "tort", texture:[["tort", 0]], inCreative: true
 }]);
@@ -24,21 +13,4 @@ tick(){
 }
   }}
   });
-
-
-
-
-
-// file: pech.js
-
-IMPORT("DungeonAPI");
-var pech = new DungeonAPI("pech.json");
-pech.setPrototype({
- isSetBlock: function(x, y, z, id, data, identification) {
-  return true;
- }
-});
-
-
-
 
